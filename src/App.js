@@ -1,22 +1,17 @@
+
 import './App.css';
+import logo from './Components/NavBar/losChichos.jpg'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a href="#default" class="logo">CompanyLogo</a>
-        <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+      <header className="NavBar-header">
+        <div className="header">
+        <a href="#default" className="logo"><img src={logo} width="100" height="50" alt="" /></a>
+          <div className="header-right">
+            <a className="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
         </div>
       </header>
     </div>
