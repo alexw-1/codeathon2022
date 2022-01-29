@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './losChichos.jpg';
+//import logo from './losChichos.jpg';
 import './Header.css'
-const Header = () => {
+import logo from './Components/NavBar/losChichos.jpg'
+
+function NavBar() {
 
     return (
         <div className="NavBar">
             <header className="NavBar-header">
-                <img src={logo} className="NavBar-logo" alt="logo" />
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                </a>
-                <div class="header-right">
-                    <a class="active" href="#home">Home</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
+                <div className="header">
+                    <a href="#default" className="logo"><img src={logo} width="100" height="50" alt="" /></a>
+
+                    <div className="header-right">
+                        <a className="active" href="#home">Home</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                    </div>
                 </div>
             </header>
         </div>
     )
 }
+export default NavBar;
