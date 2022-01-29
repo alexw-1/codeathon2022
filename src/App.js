@@ -1,6 +1,11 @@
 
 import './App.css';
+import ImgUpload from './Components/imgupload/imgupload';
 import logo from './Components/NavBar/losChichos.jpg'
+// import WebcamStream from './webcamjs';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +19,8 @@ function App() {
           </div>
         </div>
       </header>
+      <img src="" alt="input_pic"></img>
+      <input id="upload" type="file"/>
     </div>
   );
 }

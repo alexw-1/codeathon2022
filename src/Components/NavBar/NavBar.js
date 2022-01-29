@@ -1,7 +1,6 @@
 import React from 'react';
-//import logo from './losChichos.jpg';
 import './Header.css'
-import logo from './Components/NavBar/losChichos.jpg'
+import logo from './Components/NavBar/ourLogo.png'
 
 function NavBar() {
 
@@ -9,7 +8,7 @@ function NavBar() {
         <div className="NavBar">
             <header className="NavBar-header">
                 <div className="header">
-                    <a href="#default" className="logo"><img src={logo} width="100" height="50" alt="" /></a>
+                    <a href="#default" className="logo"><img src={logo} width="100" height="200" alt="" /></a>
 
                     <div className="header-right">
                         <a className="active" href="#home">Home</a>
