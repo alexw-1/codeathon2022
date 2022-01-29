@@ -1,7 +1,5 @@
-
 import './App.css';
-import ImgUpload from './Components/imgupload/imgupload';
-import logo from './Components/NavBar/losChichos.jpg'
+import logo from './ourLogo.png'
 // import WebcamStream from './webcamjs';
 
 
@@ -11,16 +9,24 @@ function App() {
     <div className="App">
       <header className="NavBar-header">
         <div className="header">
-        <a href="#default" className="logo"><img src={logo} width="100" height="50" alt="" /></a>
+        <a href="#default" className="logo"><img src={logo} width="200" height="50" alt="" /></a>
+          <span id='app_title'>DOBUTSU</span>
           <div className="header-right">
+            {/* <Router>
+              <Route path=""/>
+            </Router> */}
             <a className="active" href="#home">Home</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
           </div>
         </div>
       </header>
-      <img src="" alt="input_pic"></img>
-      <input id="upload" type="file"/>
+      <div id="imgbackground">
+          <div id="imgbackground2">
+            <img id="inputimg" src={logo} alt="inputimg"></img>
+          </div>
+      </div>
+      <input type='file'></input>
     </div>
   );
 }
