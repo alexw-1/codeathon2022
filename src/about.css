@@ -1,5 +1,7 @@
-
-  #aboutpage h1{
+  html {
+    box-sizing: border-box;
+  }
+  h1{
     text-align: center;
     font-size: medium;
   }

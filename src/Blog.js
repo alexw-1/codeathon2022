@@ -5,7 +5,7 @@ import extinct from './dinosaur-extinction-theories-top-ten-large.jpg';
 import six from './graph.png';
 export default function Blog() {
     return (
-        <div className="leftcolumn">
+        <div id="blogPage">
             <div className="card">
                 <h1>What is the Endangered Species Act? (11/17/21)</h1>
                 <div className="fakeimg"><img src={esa} alt="" /></div>

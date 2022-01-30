@@ -1,4 +1,4 @@
-.leftcolumn {   
+#blogPage {   
     width: 100%;
     text-align: center;
     background: white;
@@ -8,11 +8,11 @@
     font-size: 30px;
   }
 
-  p{
+ #blogPage p{
     font-size: 15px;
   }
   /* Fake image */
-  .fakeimg {
+  #blogPage .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
@@ -20,14 +20,14 @@
   }
   
   /* Add a card effect for articles */
-  .card {
+  #blogPage .card {
      background-color: white;
      padding: 20px;
      margin-top: 20px;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  #blogPage .row:after {
     content: "";
     display: table;
     clear: both;
