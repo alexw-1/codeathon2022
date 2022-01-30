@@ -1,5 +1,8 @@
 import './App.css';
 import logo from './ourLogo.png'
+import ig from "./iglogo.jpg"
+import twitter from "./twitter logo 2.png"
+import fb from "./fb logo.png"
 import { Outlet, Link } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +22,11 @@ function App() {
         </div>
       </header>
       <Outlet />
+      <div id="footer">
+      <img className="footerimg" src={ig} alt="ig logo"></img>
+      <img className="footerimg" src={twitter} alt="ig logo"></img>
+      <img className="footerimg" src={fb} alt="ig logo" id="fbimg"></img>
+      </div> 
     </div>
   );
 }
