@@ -1,19 +1,22 @@
 .leftcolumn {   
     width: 100%;
     padding: 30px;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     background: white;
     font-family: Arial;
     padding: 20px;
     background: #f1f1f1;
   }
-  
+  .p{
+    font-size: 20px;
+  }
   /* Fake image */
   .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+    height:200px;
   }
   
   /* Add a card effect for articles */
@@ -29,3 +32,4 @@
     display: table;
     clear: both;
   }
+  
