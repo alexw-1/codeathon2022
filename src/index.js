@@ -2,12 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Contact from './contact';
+import AboutUs from './about';
+import Home from './homepage';
 import reportWebVitals from './reportWebVitals';
-
-
+import {
+  HashRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <HashRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+      <Route path="about" element={<AboutUs />} />
+        <Route path="contact" element={<Contact />} />
+        <Route index element={<Home />}/>
+        <Route
+      path="*"
+      element={
+        <main style={{ padding: "1rem" }}>
+          <p>There's nothing here!</p>
+        </main>
+      }
+    />
+      </Route>
+    </Routes>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
