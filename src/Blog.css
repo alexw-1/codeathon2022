@@ -1,15 +1,15 @@
 .leftcolumn {   
     width: 100%;
-    padding: 30px;
-    font-size: 20px;
     text-align: center;
     background: white;
     font-family: Arial;
     padding: 20px;
     background: #f1f1f1;
+    font-size: 30px;
   }
-  .p{
-    font-size: 20px;
+
+  p{
+    font-size: 15px;
   }
   /* Fake image */
   .fakeimg {
