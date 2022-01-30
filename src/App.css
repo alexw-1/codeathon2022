@@ -79,6 +79,9 @@ body {
   overflow: hidden;
   background-color: #074365;
   padding: 20px 10px;
+  top: 0;
+  width: 100%;
+  position: fixed;
 }
 .header a {
   float: left;
@@ -92,7 +95,10 @@ body {
 }
 #footer{
   background-color: #074365;
-  height: 250px;
+  height: 200px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 .footerimg{ 
   padding-left: 50px;
