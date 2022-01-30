@@ -1,7 +1,7 @@
 import './Blog.css';
 import esa from './Screen_Shot_2020-09-13_at_1.14.49_PM_big.png';
 import Detroit from './detriot sprawl.jpg';
-import extinct from './dino.jpg';
+import extinct from './dinosaur-extinction-theories-top-ten-large.jpg';
 import six from './graph.png';
 export default function Blog() {
     return (
