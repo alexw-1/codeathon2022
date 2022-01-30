@@ -5,6 +5,7 @@ body {
   h2,
   h3 {
     margin: 0.5rem 0;
+    color: green;
   }
   h1 {
     font-size: 1.5rem;
@@ -17,10 +18,12 @@ body {
   }
   a {
     text-decoration: none;
+    color: green;
   }
   .row {
     display: flex;
     justify-content: space-between;
+    color: green;
   }
   .row.center {
     align-items: center;
@@ -53,6 +56,7 @@ body {
     background-color: #f0c040;
     width: 100%;
     cursor: pointer;
+    color: green;
   }
   button.add {
     background-color: #40c0f0;
