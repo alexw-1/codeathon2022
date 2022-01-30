@@ -1,0 +1,23 @@
+.mySlides{
+    margin: 50px;
+    width: 500px;
+}
+html { 
+    background: url(./homepagebackground2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+p{
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkgreen;
+}
+#buffer{
+    height: 50px;
+    width: 100%;
+    /* background-color: teal; */
+}
