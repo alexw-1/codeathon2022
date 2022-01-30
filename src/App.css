@@ -90,7 +90,16 @@ body {
   line-height: 25px;
   border-radius: 4px;
 }
-
+#footer{
+  background-color: #074365;
+  height: 250px;
+}
+.footerImg{ 
+  padding: 10px;
+}
+#fbimg{
+  height: 225px;
+}
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
@@ -122,3 +131,11 @@ body {
   }
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}

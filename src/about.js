@@ -3,7 +3,7 @@ import syed from './IMG-1521.jpg';
 import alex from './Components/Shop/alex.png';
 export default function AboutUs() {
     return (
-        <div>
+        <div id="aboutpage">
             <h1> Our Team</h1>
             <div className="row">
                 <div className="column">
