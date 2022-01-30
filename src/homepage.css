@@ -14,7 +14,8 @@ html {
 p{
     font-size: xx-large;
     font-weight: bold;
-    color: darkgreen;
+    color: green;
+    line-height: 2;
 }
 #buffer{
     height: 50px;

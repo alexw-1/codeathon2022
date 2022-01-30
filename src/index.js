@@ -6,6 +6,7 @@ import Contact from './contact';
 import AboutUs from './about';
 import Home from './homepage';
 import Shop from './Shop';
+// import Blog from './Blog';
 import reportWebVitals from './reportWebVitals';
 import {
   HashRouter,
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path="contact" element={<Contact />} />
         <Route path="shop" element={<Shop />} />
         <Route index element={<Home />}/>
+        {/* <Route index element={<Blog />}/> */}
         <Route
       path="*"
       element={
