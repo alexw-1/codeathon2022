@@ -12,8 +12,10 @@ function NavBar() {
 
                     <div className="header-right">
                         <a className="active" href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#shop">Shop</a>
+                        <a href="#blog">Blog</a>
                         <a href="#contact">Contact</a>
-                        <a href="#about">About</a>
                     </div>
                 </div>
             </header>
