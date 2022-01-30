@@ -95,9 +95,8 @@ body {
 }
 #footer{
   background-color: #074365;
-  height: 200px;
+  height: 100%;
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 .footerimg{ 

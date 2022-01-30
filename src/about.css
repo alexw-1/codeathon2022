@@ -1,4 +1,4 @@
-  html {
+  #aboutpage html {
     box-sizing: border-box;
   }
   h1{
@@ -16,6 +16,7 @@
     width: 50%;
     margin-bottom: 16px;
     padding: 0 8px;
+    background-color: white;
   }
   
   #aboutpage .card {
