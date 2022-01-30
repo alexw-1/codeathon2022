@@ -20,6 +20,15 @@ function App() {
             <Link to="/blog">Blog</Link>
           </div>
         </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       </header>
       <Outlet />
       <div id="footer">
