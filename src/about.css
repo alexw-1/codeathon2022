@@ -16,7 +16,6 @@
     width: 50%;
     margin-bottom: 16px;
     padding: 0 8px;
-    background-color: white;
   }
   
   #aboutpage .card {
@@ -42,7 +41,7 @@
   }
   
   #aboutpage .title {
-    color: grey;
+    color: black;
   }
   
   #aboutpage .button {
