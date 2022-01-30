@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="NavBar-header">
         <div className="header">
-          <a href="#default" className="logo"><img src={logo} width="200" height="50" alt="" /></a>
+          <Link className="logo" to= "/"><img src={logo} width="200" height="50" alt="" /></Link>
           <span id='app_title'>DOBUTSU</span>
           <div className="header-right">
             <a target="_blank" rel="noreferrer" href="https://teachablemachine.withgoogle.com/models/ymybQkyPh/">Machine Learning</a>
