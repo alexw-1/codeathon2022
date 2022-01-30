@@ -24,8 +24,8 @@ export default function AboutUs() {
                             <div className="container">
                                 <h2>Alex Wiegand</h2>
                                 <p className="title">Lead Website and Machine Learning Developer</p>
-                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p>alexWiegand@gmail.com</p>
+                                <p>Alex Wiegand is a sophmore at Holy Trinity High School. He enjoys math, science and engineering. He has been associated to We Connect the Dots for two years now.</p>
+                                <p>alex.wiegand@gmail.com</p>
                             </div>
                     </div>
                 </div>

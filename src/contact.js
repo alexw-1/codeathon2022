@@ -20,7 +20,7 @@ export default function Contact(){
             <br></br>
             <div id='social'>
                 <img src={fb} alt="ig logo"></img>
-                <h2>Facebook: </h2>
+                <h2>Facebook: The Dobutsu Project</h2>
             </div>
         </div>
     );
