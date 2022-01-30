@@ -15,18 +15,13 @@ function App() {
             {/* <Router>
               <Route path=""/>
             </Router> */}
+            <a href="https://teachablemachine.withgoogle.com/models/ymybQkyPh/">Machine Learning</a>
             <a className="active" href="#home">Home</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
           </div>
         </div>
       </header>
-      <div id="imgbackground">
-          <div id="imgbackground2">
-            <img id="inputimg" src={logo} alt="inputimg"></img>
-          </div>
-      </div>
-      <input type='file'></input>
     </div>
   );
 }
