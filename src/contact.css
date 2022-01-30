@@ -6,9 +6,9 @@
     align-items: center;
     text-align: center;
 }
-img{
+#contact img{
     float: left;
 }
-h2{
+#contact h2{
     padding-left: 20px;
 }

@@ -94,8 +94,9 @@ body {
   background-color: #074365;
   height: 250px;
 }
-.footerImg{ 
-  padding: 10px;
+.footerimg{ 
+  padding-left: 50px;
+  
 }
 #fbimg{
   height: 225px;

@@ -4,7 +4,7 @@ import twitter from "./twitter logo 2.png"
 import fb from "./fb logo.png"
 export default function Contact(){
     return (
-        <div>
+        <div id='contact'>
             <h1>Follow Us!</h1>
             <div id='social'>
                 <img src={ig} alt="ig logo"></img>

@@ -23,9 +23,9 @@ function App() {
       </header>
       <Outlet />
       <div id="footer">
-      <img className="footerimg" src={ig} alt="ig logo"></img>
-      <img className="footerimg" src={twitter} alt="ig logo"></img>
-      <img className="footerimg" src={fb} alt="ig logo" id="fbimg"></img>
+      <a rel="noreferrer" target="_blank" href="https://www.instagram.com/thedobutsuproject123/"><img className="footerimg" src={ig} alt="ig logo"></img></a>
+      <a rel="noreferrer" href="https://twitter.com/DobutsuThe" target="_blank"><img className="footerimg" src={twitter} alt="ig logo"></img></a>
+      <a href="https://business.facebook.com/home/accounts?business_id=308049861278948" rel="noreferrer" target="_blank"><img className="footerimg" src={fb} alt="ig logo" id="fbimg"></img></a>
       </div> 
     </div>
   );
